@@ -449,7 +449,7 @@ export default {
       }
 
       this.$message.success('更新角色成功！')
-      this.getUserList()
+      this.queryUserList()
       this.setRoleDialogVisible = false
     },
     // 监听分配角色对话框的关闭事件
