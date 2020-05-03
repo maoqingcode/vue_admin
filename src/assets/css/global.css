@@ -9,3 +9,7 @@ html,body,#app{
 .el-breadcrumb{
     margin-bottom: 20px;
 }
+.el-cascader-panel {
+
+    height:  400px !important;
+}
