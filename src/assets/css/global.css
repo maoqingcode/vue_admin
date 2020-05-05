@@ -13,3 +13,14 @@ html,body,#app{
 
     height:  400px !important;
 }
+
+.el-steps{
+    margin:15px 0;
+}
+.el-step__title{
+    font-size: 13px;
+}
+/* 富文本编辑器最小高度 */
+.ql-editor{
+    min-height: 300px;
+}
