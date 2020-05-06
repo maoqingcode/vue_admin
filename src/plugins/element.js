@@ -1,10 +1,24 @@
 import Vue from 'vue'
 import
 {
-  Button, Form, FormItem, Input, Message, Container, Header, Aside, Main, Menu, MenuItem, Submenu, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch, Tooltip, Pagination, Dialog, MessageBox, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane, Steps, Step
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  Container,
+  Header,
+  Aside, Main,
+  Menu, MenuItem, Submenu, Breadcrumb,
+  BreadcrumbItem, Card, Row, Col, Table,
+  TableColumn, Switch, Tooltip, Pagination, Dialog,
+  MessageBox, Tag, Tree, Select, Option, Cascader,
+  Alert, Tabs, TabPane, Steps, Step
   , CheckboxGroup,
   Checkbox,
-  Upload
+  Upload,
+  Timeline,
+  TimelineItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -42,6 +56,8 @@ Vue.use(Step)
 Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 // Vue.use(MessageBox) ?? 不要直接使用 而是挂载到
 // 全局配置需要挂载，以保证所有组件都可以访问到$message
 Vue.prototype.$message = Message
